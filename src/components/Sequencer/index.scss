@@ -1,0 +1,70 @@
+@import "../../variables";
+
+.sequencer {
+  font-size: 1.6em;
+  user-select: none;
+  display: flex;
+
+  &__steps {
+    // width: 27em;
+  }
+
+  &__step {
+    display: inline-block;
+    margin-bottom: 0.6em;
+
+    &:nth-child(8n) {
+      margin-right: 0.3em;
+    }
+  }
+
+  &__track-icons {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    height: 3.45em;
+    margin: 0 0.25em 0 0;
+  }
+
+  &__track-icon {
+    display: flex;
+    width: 1em;
+    height: 0.8em;
+    padding: 0.1em;
+  }
+
+  &__arrow {
+    fill: $color-base;
+    width: 100%;
+    height: 100%;
+
+    &--on {
+      fill: $color-accent;
+    }
+  }
+
+  &__note {
+    cursor: pointer;
+    height: 0.8em;
+    width: 0.7em;
+    background-color: darken($color-base, 10%);
+    margin: 0.05em;
+
+    &--playing {
+      background-color: $color-base-light;
+    }
+
+    &:hover {
+      background-color: $color-base;
+    }
+
+    &--on {
+      background-color: $color-accent;
+
+      &:hover {
+        background-color: lighten($color-accent, 10%);
+      }
+    }
+  }
+}

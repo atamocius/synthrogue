@@ -1,0 +1,99 @@
+@import "../../variables";
+
+.terminal {
+  font-size: 1em;
+  font-weight: bold;
+  width: 40em;
+  // line-height: 1em;
+  position: relative;
+  height: 19.25em;
+
+  &__chars {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  &__modal {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(24, 9, 48);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    user-select: none;
+
+    &--show {
+      display: flex;
+    }
+
+    &--transparent {
+      background-color: rgba(47, 17, 94, 0.5);
+    }
+  }
+
+  &__modal-text {
+    margin: 0.7em 0;
+  }
+
+  &__char {
+    display: inline-flex;
+    width: 1em;
+    height: 1.2em;
+    justify-content: center;
+    align-items: center;
+
+    &--fg-0 {
+      color: $color-base-dark;
+    }
+
+    &--fg-1 {
+      color: $color-base;
+    }
+
+    &--fg-2 {
+      color: $color-accent-light;
+    }
+
+    &--fg-3 {
+      color: $color-secondary;
+    }
+
+    &--fg-4 {
+      color: $color-tertiary;
+    }
+
+    &--fg-5 {
+      color: $color-accent;
+    }
+
+    &--bg-0 {
+      background-color: $color-base-dark;
+    }
+
+    &--bg-1 {
+      background-color: $color-base;
+    }
+
+    &--bg-2 {
+      background-color: $color-accent-light;
+    }
+
+    &--bg-3 {
+      background-color: $color-secondary;
+    }
+
+    &--bg-4 {
+      background-color: $color-tertiary;
+    }
+
+    &--bg-5 {
+      background-color: $color-accent;
+    }
+  }
+}

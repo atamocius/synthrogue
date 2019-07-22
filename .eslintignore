@@ -1,0 +1,4 @@
+src/assets
+src/typedefs
+src/**/*.css
+src/**/*.html

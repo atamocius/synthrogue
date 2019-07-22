@@ -1,0 +1,118 @@
+@import "../../variables";
+
+.help {
+  display: none;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba($color-base-dark, 0.5);
+
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 0.76em;
+  line-height: 0.5;
+
+  padding: 2em;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--show {
+    display: flex;
+  }
+
+  &__brand {
+    color: $color-tertiary;
+  }
+
+  &__h1 {
+    margin: 0.4em 0 0.5em 0;
+  }
+
+  &__h2 {
+    margin: 0.9em 0 0.5em 0;
+  }
+
+  &__h3 {
+    margin: 1em 0 0.5em 0;
+
+    &--extra {
+      margin-bottom: 1em;
+    }
+  }
+
+  &__accented {
+    color: $color-accent;
+  }
+
+  &__footer {
+    margin: 1.5em 0 0.5em 0;
+  }
+
+  &__about {
+    margin: 1.5em 0 0.5em 0;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:link, &:visited {
+      color: $color-tertiary;
+    }
+
+    &:hover {
+      color: $color-secondary;
+    }
+
+    &:active {
+      color: $color-accent-light;
+    }
+  }
+
+  &__char {
+    font-size: 1.2em;
+    font-weight: bold;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1em;
+    height: 1.2em;
+    padding-top: 0.15em;
+
+    &--robot {
+      color: $color-tertiary;
+    }
+
+    &--key {
+      color: $color-secondary;
+    }
+
+    &--exit {
+      color: $color-base-dark;
+      background-color: $color-secondary;
+    }
+
+    &--zombie {
+      color: $color-accent;
+    }
+
+    &--skeleton {
+      color: $color-accent;
+      background-color: $color-base;
+    }
+
+    &--vampire {
+      color: $color-base-dark;
+      background-color: $color-accent;
+    }
+
+    &--wall {
+      color: $color-accent-light;
+      background-color: $color-base;
+    }
+  }
+}
