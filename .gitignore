@@ -70,3 +70,4 @@ jspm_packages/
 .serverless
 
 dist
+build

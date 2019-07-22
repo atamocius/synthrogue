@@ -4,6 +4,8 @@ Program a robot to escape using a sequencer
 
 [Play the game](https://synthrogue--antonmata.repl.co/) 🚀
 
+> ⛑ If you are having issues running the game, you can also use this link as an alternative: [mirror link](https://synthrogue.netlify.com/)
+
 [Gameplay video](https://www.youtube.com/watch?v=bSB6KKsD4io) 📼
 
 ![synthrogue-gameplay-1](https://storage.googleapis.com/replit/images/1563808872541_24059064b24dd465434ee1aa9a43148c.gif)
