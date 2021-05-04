@@ -8,7 +8,7 @@ Program a robot to escape using a sequencer
 
 [Gameplay video](https://www.youtube.com/watch?v=bSB6KKsD4io) 📼
 
-![synthrogue-gameplay-1](https://storage.googleapis.com/replit/images/1563808872541_24059064b24dd465434ee1aa9a43148c.gif)
+![synthrogue](https://user-images.githubusercontent.com/6222358/117060732-d60d0380-ad53-11eb-961b-0c02e50ccf05.gif)
 
 ## What is it?
 
